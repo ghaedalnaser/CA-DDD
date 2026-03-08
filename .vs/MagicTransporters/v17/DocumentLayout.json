@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4666E3D-A3C7-4AF8-967B-05253B92039F}|Infrastructer\\Infrastructer.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\infrastructer\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4666E3D-A3C7-4AF8-967B-05253B92039F}|Infrastructer\\Infrastructer.csproj|solutionrelative:infrastructer\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4666E3D-A3C7-4AF8-967B-05253B92039F}|Infrastructer\\Infrastructer.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\infrastructer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4666E3D-A3C7-4AF8-967B-05253B92039F}|Infrastructer\\Infrastructer.csproj|solutionrelative:infrastructer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\webapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\webapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\persistence\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\item\\itementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\item\\itementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\item\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\item\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\item\\createitem\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\item\\createitem\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\item\\createitem\\createitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\item\\createitem\\createitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\persistence\\configuration\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\configuration\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4666E3D-A3C7-4AF8-967B-05253B92039F}|Infrastructer\\Infrastructer.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\infrastructer\\infrastructer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C4666E3D-A3C7-4AF8-967B-05253B92039F}|Infrastructer\\Infrastructer.csproj|solutionrelative:infrastructer\\infrastructer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\item\\itemvalueobjects\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\item\\itemvalueobjects\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\item\\itemvalueobjects\\itemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\item\\itemvalueobjects\\itemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\item\\itemerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\item\\itemerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\resultt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\resultt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\primitives\\idomainevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\primitives\\idomainevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:39:34.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-08T08:06:07.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:37:04.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:45:55.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructer\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructer\\DependencyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:43:19.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructer\\Repositories\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "Infrastructer\\Repositories\\ItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:51:41.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Persistence\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "Persistence\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAcAAACYmZmZmZk6wA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:04:45.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Item\\ItemEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemEntity.cs",
+              "RelativeToolTip": "Domain\\Item\\ItemEntity.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:28:36.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebApi",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-08T07:43:08.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:48:37.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Persistence.csproj",
+              "RelativeDocumentMoniker": "Persistence\\Persistence.csproj",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Persistence.csproj",
+              "RelativeToolTip": "Persistence\\Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-06T13:46:15.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Item\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\IItemRepository.cs",
+              "RelativeToolTip": "Domain\\Item\\IItemRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:22:38.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateItemCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Item\\CreateItem\\CreateItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Item\\CreateItem\\CreateItemCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Item\\CreateItem\\CreateItemCommandHandler.cs",
+              "RelativeToolTip": "Application\\Item\\CreateItem\\CreateItemCommandHandler.cs",
+              "ViewState": "AgIAABcAAADAzMzMzMwmwCEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:05:16.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateItemCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Item\\CreateItem\\CreateItemCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Item\\CreateItem\\CreateItemCommand.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Item\\CreateItem\\CreateItemCommand.cs",
+              "RelativeToolTip": "Application\\Item\\CreateItem\\CreateItemCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:03:19.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-06T12:01:17.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Configuration\\ItemConfiguration.cs",
+              "RelativeDocumentMoniker": "Persistence\\Configuration\\ItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Configuration\\ItemConfiguration.cs",
+              "RelativeToolTip": "Persistence\\Configuration\\ItemConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:09:44.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:20:56.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Infrastructer.csproj",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Infrastructer.csproj",
+              "RelativeDocumentMoniker": "Infrastructer\\Infrastructer.csproj",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Infrastructer.csproj",
+              "RelativeToolTip": "Infrastructer\\Infrastructer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-07T11:07:04.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-06T08:48:51.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Weight.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemValueObjects\\Weight.cs",
+              "RelativeDocumentMoniker": "Domain\\Item\\ItemValueObjects\\Weight.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemValueObjects\\Weight.cs",
+              "RelativeToolTip": "Domain\\Item\\ItemValueObjects\\Weight.cs",
+              "ViewState": "AgIAAAYAAABgZmZmZmYkwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:10:10.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ItemError.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemError.cs",
+              "RelativeDocumentMoniker": "Domain\\Item\\ItemError.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemError.cs",
+              "RelativeToolTip": "Domain\\Item\\ItemError.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:33:05.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ItemId.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemValueObjects\\ItemId.cs",
+              "RelativeDocumentMoniker": "Domain\\Item\\ItemValueObjects\\ItemId.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Item\\ItemValueObjects\\ItemId.cs",
+              "RelativeToolTip": "Domain\\Item\\ItemValueObjects\\ItemId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:55:07.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\IUnitOfWork.cs",
+              "RelativeToolTip": "Domain\\Primitives\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:24:06.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Entity.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\Entity.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Entity.cs",
+              "RelativeToolTip": "Domain\\Primitives\\Entity.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:13:18.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResultT.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\ResultT.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\ResultT.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\ResultT.cs",
+              "RelativeToolTip": "Domain\\Primitives\\ResultT.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:32:12.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Result.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\Result.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Result.cs",
+              "RelativeToolTip": "Domain\\Primitives\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:31:40.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Error.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\Error.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Error.cs",
+              "RelativeToolTip": "Domain\\Primitives\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:31:12.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IDomainEvents.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\IDomainEvents.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\IDomainEvents.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\IDomainEvents.cs",
+              "RelativeToolTip": "Domain\\Primitives\\IDomainEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:20:32.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\AggregateRoot.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\AggregateRoot.cs",
+              "RelativeToolTip": "Domain\\Primitives\\AggregateRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:19:28.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ValueObject.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\ValueObject.cs",
+              "RelativeDocumentMoniker": "Domain\\Primitives\\ValueObject.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\ValueObject.cs",
+              "RelativeToolTip": "Domain\\Primitives\\ValueObject.cs",
+              "ViewState": "AgIAABEAAABAMzMzMzMhwCUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:17:46.844Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
