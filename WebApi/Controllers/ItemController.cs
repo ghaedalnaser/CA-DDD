@@ -1,5 +1,6 @@
 ﻿using Application.Items.CreateItem;
 using Application.Items.GetItem;
+using Domain.Primitives;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 namespace WebApi.Controllers
@@ -22,12 +23,25 @@ namespace WebApi.Controllers
         }
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task <IActionResult> GetItems(GetItemQuery query, CancellationToken cancellationToken)
+        public async Task<IActionResult> GetItems([FromQuery] Guid? id, CancellationToken cancellationToken)
         {
-            var result = await Sender.Send(query, cancellationToken);
-            return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
+             var result = await Sender.Send(new GetItemQuery(id), cancellationToken);
+            
+            if (!result.IsSuccess)
+            {
+                return id.HasValue ? NotFound(result.Error) : BadRequest(result.Error);
+            }
 
+            // If ID was provided, return single item; otherwise return list
+            if (id.HasValue)
+            {
+                var item = result.Value.FirstOrDefault();
+                return item != null ? Ok(item) : NotFound();
+            }
+
+            return Ok(result.Value);
         }
     }
 }

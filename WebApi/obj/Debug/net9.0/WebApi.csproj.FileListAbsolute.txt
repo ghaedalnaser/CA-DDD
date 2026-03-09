@@ -170,5 +170,3 @@ C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\tr
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json
-C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Infrastructure.dll
-C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Infrastructure.pdb

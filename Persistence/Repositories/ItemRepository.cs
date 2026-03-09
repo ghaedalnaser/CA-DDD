@@ -24,6 +24,11 @@ namespace Persistence.Repositories
             await _dbContext.Items.AddAsync(item , cancellationToken);
         }
 
+        public async Task<Item?> GetByIdAsync(Guid id, CancellationToken cancellationToken)
+        {
+            return await _dbContext.Items.FirstOrDefaultAsync(item => item.Id == id, cancellationToken);
+        }
+
         public async Task<List<Item>> GetAllAsync(CancellationToken cancellationToken)
         {
             return await _dbContext.Items.ToListAsync(cancellationToken);

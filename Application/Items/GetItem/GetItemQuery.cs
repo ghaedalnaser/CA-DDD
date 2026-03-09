@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 using Domain.Primitives;
 using Domain.Items;
 using MediatR;
+using Domain.Items.ItemValueObjects;
 namespace Application.Items.GetItem
-
 {
     // This record represents the query for getting items. 
-    public sealed record GetItemQuery : IRequest<Result<List<GetItemResponse>>>
+    // If Id is provided, returns single item; if null, returns all items
+    public sealed record GetItemQuery(Guid? Id) : IRequest<Result<List<GetItemResponse>>>
     {
     }
 }
