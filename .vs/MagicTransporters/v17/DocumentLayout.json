@@ -7,28 +7,40 @@
       "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\webapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitem\\getitemqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitem\\getitemqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitem\\getitemquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitem\\getitemquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\persistence\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B4691D6-BBFC-47A1-9EAD-AFB2CD0C2AF4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitembyid\\getitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitembyid\\getitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitembyid\\getitembyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitembyid\\getitembyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\webapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A47A639-C322-4474-BF3A-DD5ED83C5AF7}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitems\\getitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitems\\getitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitems\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitems\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitems\\getitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitems\\getitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\items\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\items\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\domain\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAC37D-B011-43E0-AEAF-154911ABD0A1}|Domain\\Domain.csproj|solutionrelative:domain\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\updateitem\\updateitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\deleteitem\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\deleteitem\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\getitem\\getitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|solutionrelative:application\\items\\getitem\\getitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E337B8EB-DC47-42EF-B463-D718700643A7}|Application\\Application.csproj|c:\\users\\laptop land\\desktop\\ca-ddd\\magictransporters\\application\\items\\updateitem\\updateitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,8 +170,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ApiController.cs",
+              "ViewState": "AgIAAAgAAAAwMzMzMzM7wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:45:55.095Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -172,79 +192,87 @@
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ItemController.cs",
               "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ItemController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\ItemController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowB4AAABUAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAMzMzMzMjwCgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T07:48:37.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetItemQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItem\\GetItemQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Items\\GetItem\\GetItemQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItem\\GetItemQueryHandler.cs",
-              "RelativeToolTip": "Application\\Items\\GetItem\\GetItemQueryHandler.cs",
-              "ViewState": "AgIAACsAAABgZmZmZmYkwCEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T05:55:08.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetItemQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItem\\GetItemQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Items\\GetItem\\GetItemQuery.cs",
-              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItem\\GetItemQuery.cs",
-              "RelativeToolTip": "Application\\Items\\GetItem\\GetItemQuery.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAvwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T05:45:39.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\Item.cs",
-              "RelativeDocumentMoniker": "Domain\\Items\\Item.cs",
-              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\Item.cs",
-              "RelativeToolTip": "Domain\\Items\\Item.cs",
-              "ViewState": "AgIAAC0AAABgZmZmZiYuwEYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T10:28:36.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Repositories\\ItemRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\ItemRepository.cs",
               "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Repositories\\ItemRepository.cs",
               "RelativeToolTip": "Persistence\\Repositories\\ItemRepository.cs",
-              "ViewState": "AgIAACQAAACAmZmZmZk9wDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAACg//////8fwCcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T11:29:05.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiController.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ApiController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ApiController.cs",
-              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Controllers\\ApiController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ApiController.cs",
-              "ViewState": "AgIAAA4AAAAAMzMzMzPzvwsAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GetItemByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItemById\\GetItemByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Items\\GetItemById\\GetItemByIdQuery.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItemById\\GetItemByIdQuery.cs",
+              "RelativeToolTip": "Application\\Items\\GetItemById\\GetItemByIdQuery.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T07:45:55.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T19:13:36.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetItemByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItemById\\GetItemByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Items\\GetItemById\\GetItemByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItemById\\GetItemByIdQueryHandler.cs",
+              "RelativeToolTip": "Application\\Items\\GetItemById\\GetItemByIdQueryHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvxcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T19:14:09.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetItemsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItems\\GetItemsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Items\\GetItems\\GetItemsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItems\\GetItemsQueryHandler.cs",
+              "RelativeToolTip": "Application\\Items\\GetItems\\GetItemsQueryHandler.cs",
+              "ViewState": "AgIAABQAAAAAMzMzMzMLwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T05:55:08.187Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "GetItemsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItems\\GetItemsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Items\\GetItems\\GetItemsQuery.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItems\\GetItemsQuery.cs",
+              "RelativeToolTip": "Application\\Items\\GetItems\\GetItemsQuery.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAvwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T05:45:39.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItems\\GetItemResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Items\\GetItems\\GetItemResponse.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItems\\GetItemResponse.cs",
+              "RelativeToolTip": "Application\\Items\\GetItems\\GetItemResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T05:58:43.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\IItemRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Items\\IItemRepository.cs",
@@ -252,12 +280,23 @@
               "RelativeToolTip": "Domain\\Items\\IItemRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAvwA4AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T11:22:38.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T11:22:38.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Domain\\Items\\Item.cs",
+              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\Item.cs",
+              "RelativeToolTip": "Domain\\Items\\Item.cs",
+              "ViewState": "AgIAAC0AAABgZmZmZiYuwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:28:36.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UpdateItemCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\UpdateItem\\UpdateItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Items\\UpdateItem\\UpdateItemCommandHandler.cs",
@@ -265,12 +304,11 @@
               "RelativeToolTip": "Application\\Items\\UpdateItem\\UpdateItemCommandHandler.cs",
               "ViewState": "AgIAABQAAAAAzczMzMwYwBgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T11:17:48.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T11:17:48.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "DeleteItemCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\DeleteItem\\DeleteItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Items\\DeleteItem\\DeleteItemCommandHandler.cs",
@@ -278,12 +316,11 @@
               "RelativeToolTip": "Application\\Items\\DeleteItem\\DeleteItemCommandHandler.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:10:24.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:10:24.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DeleteItemCommand.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\DeleteItem\\DeleteItemCommand.cs",
               "RelativeDocumentMoniker": "Application\\Items\\DeleteItem\\DeleteItemCommand.cs",
@@ -291,25 +328,11 @@
               "RelativeToolTip": "Application\\Items\\DeleteItem\\DeleteItemCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:06:59.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:06:59.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetItemResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItem\\GetItemResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Items\\GetItem\\GetItemResponse.cs",
-              "ToolTip": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\GetItem\\GetItemResponse.cs",
-              "RelativeToolTip": "Application\\Items\\GetItem\\GetItemResponse.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T05:58:43.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UpdateItemCommand.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\UpdateItem\\UpdateItemCommand.cs",
               "RelativeDocumentMoniker": "Application\\Items\\UpdateItem\\UpdateItemCommand.cs",
@@ -317,12 +340,11 @@
               "RelativeToolTip": "Application\\Items\\UpdateItem\\UpdateItemCommand.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T11:17:30.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T11:17:30.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "CreateItemCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\CreateItem\\CreateItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Items\\CreateItem\\CreateItemCommandHandler.cs",
@@ -330,12 +352,11 @@
               "RelativeToolTip": "Application\\Items\\CreateItem\\CreateItemCommandHandler.cs",
               "ViewState": "AgIAABgAAACgmZmZmZktwBoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:05:16.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T12:05:16.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CreateItemCommand.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Items\\CreateItem\\CreateItemCommand.cs",
               "RelativeDocumentMoniker": "Application\\Items\\CreateItem\\CreateItemCommand.cs",
@@ -343,12 +364,11 @@
               "RelativeToolTip": "Application\\Items\\CreateItem\\CreateItemCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:03:19.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T12:03:19.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Weight.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\ItemValueObjects\\Weight.cs",
               "RelativeDocumentMoniker": "Domain\\Items\\ItemValueObjects\\Weight.cs",
@@ -356,12 +376,11 @@
               "RelativeToolTip": "Domain\\Items\\ItemValueObjects\\Weight.cs",
               "ViewState": "AgIAAAYAAABgZmZmZmYkwAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T11:10:10.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T11:10:10.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
@@ -369,12 +388,11 @@
               "RelativeToolTip": "Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAcAAAAgMzMzMzMrwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:39:34.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T09:39:34.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\WebApi.csproj",
               "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
@@ -382,12 +400,11 @@
               "RelativeToolTip": "WebApi\\WebApi.csproj",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwBkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-08T07:43:08.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T07:43:08.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ItemId.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\ItemValueObjects\\ItemId.cs",
               "RelativeDocumentMoniker": "Domain\\Items\\ItemValueObjects\\ItemId.cs",
@@ -399,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
@@ -411,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
@@ -423,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Persistence\\DependencyInjection.cs",
@@ -435,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "DesignTimeDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\DesignTimeDbContextFactory.cs",
               "RelativeDocumentMoniker": "Persistence\\DesignTimeDbContextFactory.cs",
@@ -447,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ItemError.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Items\\ItemError.cs",
               "RelativeDocumentMoniker": "Domain\\Items\\ItemError.cs",
@@ -459,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ItemConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Configuration\\ItemConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\Configuration\\ItemConfiguration.cs",
@@ -471,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -483,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Persistence\\AppDbContext.cs",
@@ -495,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Persistence.csproj",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Persistence.csproj",
               "RelativeDocumentMoniker": "Persistence\\Persistence.csproj",
@@ -507,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructer\\Infrastructure.csproj",
@@ -519,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -531,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi\\appsettings.json",
@@ -543,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\IUnitOfWork.cs",
@@ -555,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Entity.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\Entity.cs",
@@ -567,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ResultT.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\ResultT.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\ResultT.cs",
@@ -579,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Result.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\Result.cs",
@@ -591,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Error.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\Error.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\Error.cs",
@@ -603,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "IDomainEvents.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\IDomainEvents.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\IDomainEvents.cs",
@@ -615,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "AggregateRoot.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\AggregateRoot.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\AggregateRoot.cs",
@@ -627,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "ValueObject.cs",
               "DocumentMoniker": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Domain\\Primitives\\ValueObject.cs",
               "RelativeDocumentMoniker": "Domain\\Primitives\\ValueObject.cs",
