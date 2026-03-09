@@ -28,14 +28,14 @@ namespace Application.Items.CreateItem
             if (string.IsNullOrWhiteSpace(request.Name))
                 return Result.Failure<Guid>(ItemError.InvalidName);
 
-            if (request.Weigth <= 0)
+            if (request.Weight <= 0)
                 return Result.Failure<Guid>(ItemError.InvalidWeight);
 
             // Create the item
             var item = Item.Create(
                 new ItemId(Guid.NewGuid()),
                 request.Name,
-                new Weight(request.Weigth)
+                new Weight(request.Weight)
             );
 
             await _itemRepository.AddAsync(item);

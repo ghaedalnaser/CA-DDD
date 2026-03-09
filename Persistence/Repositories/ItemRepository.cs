@@ -1,4 +1,5 @@
 ﻿using Domain.Items;
+using Domain.Items.ItemValueObjects;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,19 +20,29 @@ namespace Persistence.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task AddAsync(Item item , CancellationToken cancellationToken)
+        public async Task AddAsync(Item item, CancellationToken cancellationToken)
         {
-            await _dbContext.Items.AddAsync(item , cancellationToken);
+            await _dbContext.Items.AddAsync(item, cancellationToken);
         }
 
-        public async Task<Item?> GetByIdAsync(Guid id, CancellationToken cancellationToken)
+        public async Task<Item?> GetByIdAsync(ItemId id, CancellationToken cancellationToken)
         {
-            return await _dbContext.Items.FirstOrDefaultAsync(item => item.Id == id, cancellationToken);
+            return await _dbContext.Items.FirstOrDefaultAsync(item => item.Id == id.Value, cancellationToken);
         }
 
         public async Task<List<Item>> GetAllAsync(CancellationToken cancellationToken)
         {
             return await _dbContext.Items.ToListAsync(cancellationToken);
+        }
+        public async Task UpdateAsync(Item item, CancellationToken cancellationToken)
+        {
+            _dbContext.Items.Update(item);
+            await Task.CompletedTask;
+        }
+        public async Task DeleteAsync(Item item, CancellationToken cancellationToken)
+        {
+            _dbContext.Items.Remove(item);
+            await Task.CompletedTask;
         }
     }
 }

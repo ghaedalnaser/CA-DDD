@@ -19,10 +19,10 @@ namespace Application.Items.GetItem
         }
         public async Task<Result<List<GetItemResponse>>> Handle(GetItemQuery request, CancellationToken cancellationToken)
         {
-            if (request.Id.HasValue)
+            if (request.Id is not null)
             {
                 // Get single item by ID
-                var item = await _itemRepository.GetByIdAsync(request.Id.Value , cancellationToken);
+                var item = await _itemRepository.GetByIdAsync(request.Id , cancellationToken);
                 if (item == null)
                 {
                     return Result.Failure<List<GetItemResponse>>(ItemError.NotFound);
