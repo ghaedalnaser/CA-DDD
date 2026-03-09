@@ -11,7 +11,7 @@ namespace Application.Items.GetItem
 {
     // This record represents the query for getting items. 
     // If Id is provided, returns single item; if null, returns all items
-    public sealed record GetItemQuery(Guid? Id) : IRequest<Result<List<GetItemResponse>>>
+    public sealed record GetItemQuery(ItemId? Id) : IRequest<Result<List<GetItemResponse>>>
     {
     }
 }

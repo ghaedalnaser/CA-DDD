@@ -4,5 +4,5 @@ using Domain.Primitives;
 
 namespace Application.Items.CreateItem
 {
-    public sealed record CreateItemCommand(string Name, decimal Weigth) : IRequest<Result<Guid>>;
+    public sealed record CreateItemCommand(string Name, decimal Weight) : IRequest<Result<Guid>>;
 }
