@@ -9,8 +9,7 @@ namespace Domain.Items
 {
     public interface IItemRepository
     {
-        //Task<ItemEntity> GetByIdAsync(ItemId id);
-
+        Task<Item?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
         Task <List<Item>> GetAllAsync(CancellationToken cancellationToken=default);
         Task AddAsync(Item item, CancellationToken cancellationToken = default);
 

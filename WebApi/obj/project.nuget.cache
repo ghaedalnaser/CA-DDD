@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eA1wE0Og60U=",
+  "dgSpecHash": "Q2CtFiHaadU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -82,8 +82,8 @@
     "C:\\Users\\Laptop Land\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\Laptop Land\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Laptop Land\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Laptop Land\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
     "C:\\Users\\Laptop Land\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\Laptop Land\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
     "C:\\Users\\Laptop Land\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512",
     "C:\\Users\\Laptop Land\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.13\\microsoft.netcore.app.host.win-x64.9.0.13.nupkg.sha512"
   ],

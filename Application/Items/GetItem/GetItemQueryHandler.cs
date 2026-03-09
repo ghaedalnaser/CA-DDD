@@ -19,16 +19,40 @@ namespace Application.Items.GetItem
         }
         public async Task<Result<List<GetItemResponse>>> Handle(GetItemQuery request, CancellationToken cancellationToken)
         {
-            var items = await _itemRepository.GetAllAsync(cancellationToken);
+            if (request.Id.HasValue)
+            {
+                // Get single item by ID
+                var item = await _itemRepository.GetByIdAsync(request.Id.Value , cancellationToken);
+                if (item == null)
+                {
+                    return Result.Failure<List<GetItemResponse>>(ItemError.NotFound);
+                }
 
-            //format response
-            var response = items.Select(item => new GetItemResponse(
-                Id: item.Id,
-                Name: item.Name,
-                Weight: item.Weight.Value
-                )).ToList();
+                var response = new List<GetItemResponse>
+                {
+                    new GetItemResponse(
+                        Id: item.Id,
+                        Name: item.Name,
+                        Weight: item.Weight.Value
+                    )
+                };
 
-            return Result.Success(response);
+                return Result.Success(response);
+            }
+            else
+            {
+                // Get all items
+                var items = await _itemRepository.GetAllAsync(cancellationToken);
+
+                //format response
+                var response = items.Select(item => new GetItemResponse(
+                    Id: item.Id,
+                    Name: item.Name,
+                    Weight: item.Weight.Value
+                    )).ToList();
+
+                return Result.Success(response);
+            }
         }
     }
 }
