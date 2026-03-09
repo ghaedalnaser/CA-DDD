@@ -1,6 +1,7 @@
 ﻿using Application.Items.CreateItem;
 using Application.Items.DeleteItem;
 using Application.Items.GetItem;
+using Application.Items.GetItemById;
 using Application.Items.UpdateItem;
 using Domain.Items.ItemValueObjects;
 using Domain.Primitives;
@@ -15,6 +16,7 @@ namespace WebApi.Controllers
         {
 
         }
+        //Create an item
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -24,30 +26,28 @@ namespace WebApi.Controllers
             var result = await Sender.Send(command, cancellationToken);
             return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
         }
+        //Get all items
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> GetItems([FromQuery] Guid? id, CancellationToken cancellationToken)
+        public async Task<IActionResult> GetItems(GetItemsQuery command,CancellationToken cancellationToken)
         {
-            var command = new GetItemQuery(id.HasValue ? new ItemId(id.Value) : null);
-
             var result = await Sender.Send(command, cancellationToken);
-
-            if (!result.IsSuccess)
-            {
-                return id.HasValue ? NotFound(result.Error) : BadRequest(result.Error);
-            }
-
-            // If ID was provided, return single item; otherwise return list
-            if (id.HasValue)
-            {
-                var item = result.Value.FirstOrDefault();
-                return item != null ? Ok(item) : NotFound();
-            }
-
-            return Ok(result.Value);
+            return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
         }
+        //Get an item by id
+        [HttpGet("{id:guid}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetItem(Guid id, CancellationToken cancellationToken)
+        {
+            var command = new GetItemByIdQuery(new ItemId(id));
+            var result = await Sender.Send(command, cancellationToken);
+            return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
+        }
+        //update an item
         [HttpPut("{id:guid}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -61,6 +61,7 @@ namespace WebApi.Controllers
             return result.IsSuccess ? Ok() : BadRequest(result.Error);
 
         }
+        //delete an item
         [HttpDelete("{id:guid}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
