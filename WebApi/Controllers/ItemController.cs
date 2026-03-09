@@ -1,7 +1,7 @@
-﻿using Application.Item.CreateItem;
+﻿using Application.Items.CreateItem;
+using Application.Items.GetItem;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-
 namespace WebApi.Controllers
 {
     [Route("api/item")]
@@ -14,12 +14,20 @@ namespace WebApi.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CreateItem( [FromBody] CreateItemCommand command, CancellationToken cancellationToken)
+        public async Task<IActionResult> CreateItem([FromBody] CreateItemCommand command, CancellationToken cancellationToken)
         {
 
             var result = await Sender.Send(command, cancellationToken);
             return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
         }
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task <IActionResult> GetItems(GetItemQuery query, CancellationToken cancellationToken)
+        {
+            var result = await Sender.Send(query, cancellationToken);
+            return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
 
+        }
     }
 }

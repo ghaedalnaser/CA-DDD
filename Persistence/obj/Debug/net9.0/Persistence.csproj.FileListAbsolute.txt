@@ -15,3 +15,4 @@ C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\Persistence\obj\Debug\net9
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\Persistence\obj\Debug\net9.0\ref\Persistence.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\Persistence\bin\Debug\net9.0\Persistence.runtimeconfig.json
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\Persistence\obj\Debug\net9.0\Persistence.genruntimeconfig.cache
+C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\Persistence\obj\Debug\net9.0\Persistence.sourcelink.json

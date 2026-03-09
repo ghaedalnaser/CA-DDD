@@ -1,13 +1,13 @@
-﻿using Domain.Item;
+﻿using Domain.Items;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace MagicTransportes.Infrastructure.Configurations;
+namespace Persistence.Configurations;
 
-internal sealed class ItemConfiguration : IEntityTypeConfiguration<ItemEntity>{
-    public void Configure(EntityTypeBuilder<ItemEntity> builder)
+internal sealed class ItemConfiguration : IEntityTypeConfiguration<Item>{
+    public void Configure(EntityTypeBuilder<Item> builder)
     {
-        builder.ToTable("Item");
+        builder.ToTable("Items");
 
         builder.HasKey(i => i.Id);
         builder.Property(i => i.Id).ValueGeneratedNever();

@@ -1637,7 +1637,7 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "Infrastructer/1.0.0": {
+      "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -1648,10 +1648,10 @@
           "Persistence": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Infrastructer.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infrastructer.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         }
       },
       "Persistence/1.0.0": {
@@ -4597,10 +4597,10 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    "Infrastructer/1.0.0": {
+    "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Infrastructer/Infrastructer.csproj",
-      "msbuildProject": "../Infrastructer/Infrastructer.csproj"
+      "path": "../Infrastructer/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructer/Infrastructure.csproj"
     },
     "Persistence/1.0.0": {
       "type": "project",
@@ -4611,11 +4611,12 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Application >= 1.0.0",
-      "Infrastructer >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "MediatR >= 13.1.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.9",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.9"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.9",
+      "Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4654,8 +4655,11 @@
             "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Application.csproj": {
               "projectPath": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Application\\Application.csproj"
             },
-            "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Infrastructer.csproj": {
-              "projectPath": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Infrastructer.csproj"
+            "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Infrastructer\\Infrastructure.csproj"
+            },
+            "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Laptop Land\\Desktop\\CA-DDD\\MagicTransporters\\Persistence\\Persistence.csproj"
             }
           }
         }

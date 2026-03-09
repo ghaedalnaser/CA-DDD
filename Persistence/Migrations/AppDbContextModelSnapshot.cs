@@ -22,7 +22,7 @@ namespace Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Domain.Item.ItemEntity", b =>
+            modelBuilder.Entity("Domain.Items.Item", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uniqueidentifier");
@@ -34,26 +34,26 @@ namespace Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Item", (string)null);
+                    b.ToTable("Items", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Item.ItemEntity", b =>
+            modelBuilder.Entity("Domain.Items.Item", b =>
                 {
-                    b.OwnsOne("Domain.Item.ItemValueObjects.Weight", "Weight", b1 =>
+                    b.OwnsOne("Domain.Items.ItemValueObjects.Weight", "Weight", b1 =>
                         {
-                            b1.Property<Guid>("ItemEntityId")
+                            b1.Property<Guid>("ItemId")
                                 .HasColumnType("uniqueidentifier");
 
                             b1.Property<decimal>("Value")
                                 .HasColumnType("decimal(18,2)")
                                 .HasColumnName("Weight");
 
-                            b1.HasKey("ItemEntityId");
+                            b1.HasKey("ItemId");
 
-                            b1.ToTable("Item");
+                            b1.ToTable("Items");
 
                             b1.WithOwner()
-                                .HasForeignKey("ItemEntityId");
+                                .HasForeignKey("ItemId");
                         });
 
                     b.Navigation("Weight")

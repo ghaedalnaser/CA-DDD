@@ -67,10 +67,8 @@ C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\ru
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Application.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Domain.dll
-C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Infrastructer.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Persistence.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Application.pdb
-C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Infrastructer.pdb
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Domain.pdb
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Persistence.pdb
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\obj\Debug\net9.0\rjimswa.dswa.cache.json
@@ -171,3 +169,6 @@ C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\ru
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json
+C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\Laptop Land\Desktop\CA-DDD\MagicTransporters\WebApi\bin\Debug\net9.0\Infrastructure.pdb
