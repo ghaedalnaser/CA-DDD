@@ -14,4 +14,9 @@
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Missions\CompleteMission\" />
+    <Folder Include="Missions\FailMission\" />
+  </ItemGroup>
+
 </Project>

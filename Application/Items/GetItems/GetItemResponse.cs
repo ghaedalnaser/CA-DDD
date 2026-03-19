@@ -12,6 +12,7 @@ namespace Application.Items.GetItem
     (
         Guid Id,
         string Name,
-        decimal Weight
+        decimal Weight,
+        string Status
     );
 }

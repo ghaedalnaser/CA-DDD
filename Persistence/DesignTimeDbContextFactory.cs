@@ -10,7 +10,7 @@ namespace Persistence
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
             
             // Use SQL Server connection string for design-time operations
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=MagicTransportesDB;Trusted_Connection=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=MagicTransportes_DB;Trusted_Connection=True;TrustServerCertificate=True");
 
             return new AppDbContext(optionsBuilder.Options);
         }

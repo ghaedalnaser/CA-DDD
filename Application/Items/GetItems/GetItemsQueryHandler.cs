@@ -25,9 +25,10 @@ namespace Application.Items.GetItem
 
                 //format response
                 var response = items.Select(item => new GetItemResponse(
-                    Id: item.Id,
-                    Name: item.Name,
-                    Weight: item.Weight.Value
+                     item.Id,
+                     item.Name,
+                     item.Weight.Value,
+                     item.Status.ToString()
                     )).ToList();
 
                 return Result.Success(response);

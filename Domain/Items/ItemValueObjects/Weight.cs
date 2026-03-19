@@ -13,7 +13,7 @@ namespace Domain.Items.ItemValueObjects
         public Weight(decimal value)
         {
             if (value <= 0)
-                throw new ArgumentException("Weight cannot be negative.", nameof(value));
+                throw new ArgumentException("Weight must be greater than zero.", nameof(value));
             Value = value;
         }
         protected override IEnumerable<object?> GetEqualityComponents()

@@ -34,15 +34,7 @@ namespace Persistence.Repositories
         {
             return await _dbContext.Items.ToListAsync(cancellationToken);
         }
-        public async Task UpdateAsync(Item item, CancellationToken cancellationToken)
-        {
-            _dbContext.Items.Update(item);
-            await Task.CompletedTask;
-        }
-        public async Task DeleteAsync(Item item, CancellationToken cancellationToken)
-        {
-            _dbContext.Items.Remove(item);
-            await Task.CompletedTask;
-        }
+
+
     }
 }
