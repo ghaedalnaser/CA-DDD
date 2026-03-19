@@ -1,8 +1,11 @@
 ﻿using Domain.Items;
+using Domain.Items.ItemValueObjects;
+using Domain.Mission.MissionValueObject;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Persistence.Configurations;
+namespace Persistence.Configuration;
 
 internal sealed class ItemConfiguration : IEntityTypeConfiguration<Item>{
     public void Configure(EntityTypeBuilder<Item> builder)
@@ -15,6 +18,16 @@ internal sealed class ItemConfiguration : IEntityTypeConfiguration<Item>{
         builder.Property(i => i.Name)
             .HasMaxLength(200)
             .IsRequired();
+
+        builder.Property(i => i.Status)
+            .HasConversion(
+                status => status.ToString(),
+                value => (ItemStatus)Enum.Parse(typeof(ItemStatus), value));
+
+        builder.Property(i => i.ReservedMissionId)
+            .HasConversion(
+                id => id != null ? id.Value : (Guid?)null,
+                value => value.HasValue ? new MissionId(value.Value) : null);
 
         builder.OwnsOne(i => i.Weight, weight =>
         {

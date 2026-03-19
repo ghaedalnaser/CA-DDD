@@ -13,7 +13,6 @@ namespace Application.Items.GetItemById
     public sealed class GetItemByIdQueryHandler : IRequestHandler<GetItemByIdQuery, Result<GetItemResponse>>
     {
         private readonly IItemRepository _itemRepository;
-       
         public GetItemByIdQueryHandler(IItemRepository itemRepository)
         {
             _itemRepository = itemRepository;
@@ -30,9 +29,13 @@ namespace Application.Items.GetItemById
             var response = new GetItemResponse(
                 Id: item.Id,
                 Name: item.Name,
-                Weight: item.Weight.Value
+                Weight: item.Weight.Value,               
+                Status: item.Status.ToString()
                 );
             return Result.Success(response);
         }
+
     }
+
 }
+

@@ -22,9 +22,41 @@ namespace Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.ActivityLogs.ActivityLog", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ActivityType")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<Guid?>("MissionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MissionId");
+
+                    b.ToTable("ActivityLogs", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Items.Item", b =>
                 {
                     b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("MissionId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
@@ -32,13 +64,76 @@ namespace Persistence.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
+                    b.Property<Guid?>("ReservedMissionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("MissionId");
 
                     b.ToTable("Items", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Mission.Mission", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("MoverId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Missions", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Movers.Mover", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("CompletedMissionsCount")
+                        .HasColumnType("int");
+
+                    b.Property<Guid?>("CurrentMissionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Movers", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.ActivityLogs.ActivityLog", b =>
+                {
+                    b.HasOne("Domain.Mission.Mission", null)
+                        .WithMany("ActivityLogs")
+                        .HasForeignKey("MissionId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
             modelBuilder.Entity("Domain.Items.Item", b =>
                 {
+                    b.HasOne("Domain.Mission.Mission", null)
+                        .WithMany("Items")
+                        .HasForeignKey("MissionId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
                     b.OwnsOne("Domain.Items.ItemValueObjects.Weight", "Weight", b1 =>
                         {
                             b1.Property<Guid>("ItemId")
@@ -58,6 +153,56 @@ namespace Persistence.Migrations
 
                     b.Navigation("Weight")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Movers.Mover", b =>
+                {
+                    b.OwnsOne("Domain.Items.ItemValueObjects.Weight", "WeightLimit", b1 =>
+                        {
+                            b1.Property<Guid>("MoverId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<decimal>("Value")
+                                .HasColumnType("decimal(18,2)")
+                                .HasColumnName("WeightLimit");
+
+                            b1.HasKey("MoverId");
+
+                            b1.ToTable("Movers");
+
+                            b1.WithOwner()
+                                .HasForeignKey("MoverId");
+                        });
+
+                    b.OwnsOne("Domain.Movers.MoverValueObject.Energy", "Energy", b1 =>
+                        {
+                            b1.Property<Guid>("MoverId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<decimal>("Value")
+                                .HasColumnType("decimal(18,2)")
+                                .HasColumnName("Energy");
+
+                            b1.HasKey("MoverId");
+
+                            b1.ToTable("Movers");
+
+                            b1.WithOwner()
+                                .HasForeignKey("MoverId");
+                        });
+
+                    b.Navigation("Energy")
+                        .IsRequired();
+
+                    b.Navigation("WeightLimit")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Mission.Mission", b =>
+                {
+                    b.Navigation("ActivityLogs");
+
+                    b.Navigation("Items");
                 });
 #pragma warning restore 612, 618
         }
