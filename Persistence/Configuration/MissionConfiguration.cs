@@ -43,6 +43,11 @@ namespace Persistence.Configuration
             // Configure navigation properties to use field access
             builder.Navigation(m => m.Items).UsePropertyAccessMode(PropertyAccessMode.Field);
             builder.Navigation(m => m.ActivityLogs).UsePropertyAccessMode(PropertyAccessMode.Field);
+            
+            //Concurrency
+            builder.Property(m => m.RowVersion)
+                .IsRowVersion()
+                .IsRequired();
         }
     }
 }

@@ -48,9 +48,16 @@ namespace Application.Missions.StartMission
             {
                 return Result.Failure(result.Error);
             }
-            
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return result;
+
+            try
+            {
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                return result;
+            }
+            catch (ConcurrencyException)
+            {
+                return Result.Failure(MissionError.Conflict);
+            }
         }
     }
 }

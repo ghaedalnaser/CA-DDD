@@ -53,8 +53,15 @@ namespace Application.Missions.LoadItem
             if (result.IsFailure)
                 return Result.Failure(result.Error);
 
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return  result ;
+            try
+            {
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                return result;
+            }
+            catch (ConcurrencyException)
+            {
+                return Result.Failure(ItemError.Conflict);
+            }
         }
     }
 }

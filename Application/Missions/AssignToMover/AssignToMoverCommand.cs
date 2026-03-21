@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Application.Missions.AssignToMover
 {
-     public sealed record AssignToMoverCommand(MissionId MissionId, MoverId moverId) : IRequest<Result>
+     public sealed record AssignToMoverCommand(MissionId MissionId, MoverId moverId, string IdempotencyKey) : IRequest<Result>, IIdempotentCommand
     {
     }
 }

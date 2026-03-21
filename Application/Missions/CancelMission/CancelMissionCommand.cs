@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.Missions.CancelMission
 {
-     public sealed record CancelMissionCommand(MissionId MissionId) : IRequest<Result>
+     public sealed record CancelMissionCommand(MissionId MissionId, string IdempotencyKey) : IRequest<Result>, IIdempotentCommand
     {
     }
 }

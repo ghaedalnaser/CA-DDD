@@ -17,9 +17,10 @@ namespace WebApi.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CreateItem([FromBody] CreateItemCommand command, CancellationToken cancellationToken)
+        public async Task<IActionResult> CreateItem(
+            [FromBody] CreateItemCommand command,
+            CancellationToken cancellationToken)
         {
-
             var result = await Sender.Send(command, cancellationToken);
             return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
         }

@@ -1,4 +1,5 @@
 ﻿
+using Application;
 using Domain.Items;
 using Domain.Mission;
 using Domain.Primitives;
@@ -14,8 +15,11 @@ namespace Persistence
     {
         public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContextFactory<AppDbContext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")),
+                ServiceLifetime.Scoped);
+
+            services.AddScoped<IIdempotencyService, IdempotencyService>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

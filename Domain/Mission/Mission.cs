@@ -23,6 +23,8 @@ namespace Domain.Mission
         public IReadOnlyCollection<Item> Items => _items.AsReadOnly();
         public IReadOnlyCollection<ActivityLog> ActivityLogs => _activityLogs.AsReadOnly();
 
+        //Concurrency
+        public byte[] RowVersion { get; private set; } = Array.Empty<byte>();   
 
         private Mission() : base(Guid.Empty)
         {

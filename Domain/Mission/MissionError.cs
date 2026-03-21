@@ -58,5 +58,8 @@ namespace Domain.Mission
         public static readonly Error InvalidMover = new(
             "Mission.InvalidMover",
             "The provided mover does not belong to this mission.");
+
+        public static readonly Error Conflict = new(
+            "Mission.Conflict", "The mission was modified by another request. Please retry.");
     }
 }

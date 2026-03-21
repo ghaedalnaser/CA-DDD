@@ -13,7 +13,10 @@ namespace Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddMediatR(configuration =>
-                configuration.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly));
+            {
+                configuration.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
+                configuration.AddOpenBehavior(typeof(IdempotencyPipelineBehavior<,>));
+            });
 
             return services;
         }
