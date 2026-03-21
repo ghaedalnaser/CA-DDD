@@ -16,6 +16,9 @@ namespace Domain.Items
         public ItemStatus Status { get; private set; }
         public MissionId? ReservedMissionId { get; private set; }
 
+        //Concurrency
+        public byte[] RowVersion { get; private set; } = Array.Empty<byte>();
+
         private Item(ItemId id, string name, Weight weight) : base(id.Value)
         {
             if (string.IsNullOrWhiteSpace(name))

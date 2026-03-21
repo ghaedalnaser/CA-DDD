@@ -27,20 +27,24 @@ namespace WebApi.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CreateMission(CancellationToken cancellationToken)
+        public async Task<IActionResult> CreateMission(
+            CancellationToken cancellationToken)
         {
             var result = await Sender.Send(new CreateMissionCommand(), cancellationToken);
             return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Error);
-            
         }
 
         //Load item to mission
         [HttpPost("{missionId:guid}/load-item/{itemId:guid}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> LoadItem(Guid missionId, Guid itemId, CancellationToken cancellationToken)
+        public async Task<IActionResult> LoadItem(
+            Guid missionId,
+            Guid itemId,
+            [FromHeader(Name = "Idempotency-Key")] string idempotencyKey,
+            CancellationToken cancellationToken)
         {
-            var command = new LoadItemCommand(new ItemId(itemId), new MissionId(missionId));
+            var command = new LoadItemCommand(new ItemId(itemId), new MissionId(missionId), idempotencyKey);
             var result = await Sender.Send(command, cancellationToken);
             return result.IsSuccess ? Ok() : BadRequest(result.Error);
         }
@@ -49,9 +53,13 @@ namespace WebApi.Controllers
         [HttpPost("{missionId:guid}/assign-to-mover/{moverId:guid}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> AssignToMover(Guid missionId, Guid moverId, CancellationToken cancellationToken)
+        public async Task<IActionResult> AssignToMover(
+            Guid missionId,
+            Guid moverId,
+            [FromHeader(Name = "Idempotency-Key")] string idempotencyKey,
+            CancellationToken cancellationToken)
         {
-            var command = new AssignToMoverCommand(new MissionId(missionId), new MoverId(moverId));
+            var command = new AssignToMoverCommand(new MissionId(missionId), new MoverId(moverId), idempotencyKey);
             var result = await Sender.Send(command, cancellationToken);
             return result.IsSuccess ? Ok() : BadRequest(result.Error);
         }
@@ -81,9 +89,12 @@ namespace WebApi.Controllers
         [HttpPost("{id:guid}/start")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> StartMission(Guid id, CancellationToken cancellationToken)
+        public async Task<IActionResult> StartMission(
+            Guid id,
+            [FromHeader(Name = "Idempotency-Key")] string idempotencyKey,
+            CancellationToken cancellationToken)
         {
-            var command = new StartMissionCommand(new MissionId(id));
+            var command = new StartMissionCommand(new MissionId(id), idempotencyKey);
             var result = await Sender.Send(command, cancellationToken);
             return result.IsSuccess ? Ok() : BadRequest(result.Error);
         }
@@ -92,7 +103,9 @@ namespace WebApi.Controllers
         [HttpPost("{id:guid}/complete")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CompleteMission(Guid id, CancellationToken cancellationToken)
+        public async Task<IActionResult> CompleteMission(
+            Guid id,
+            CancellationToken cancellationToken)
         {
             var command = new CompleteMissionCommand(new MissionId(id));
             var result = await Sender.Send(command, cancellationToken);
@@ -103,9 +116,12 @@ namespace WebApi.Controllers
         [HttpPost("{id:guid}/cancel")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CancelMission(Guid id, CancellationToken cancellationToken)
+        public async Task<IActionResult> CancelMission(
+            Guid id,
+            [FromHeader(Name = "Idempotency-Key")] string idempotencyKey,
+            CancellationToken cancellationToken)
         {
-            var command = new CancelMissionCommand(new MissionId(id));
+            var command = new CancelMissionCommand(new MissionId(id), idempotencyKey);
             var result = await Sender.Send(command, cancellationToken);
             return result.IsSuccess ? Ok() : BadRequest(result.Error);
         }
@@ -114,7 +130,9 @@ namespace WebApi.Controllers
         [HttpPost("{id:guid}/fail")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> FailMission(Guid id, CancellationToken cancellationToken)
+        public async Task<IActionResult> FailMission(
+            Guid id,
+            CancellationToken cancellationToken)
         {
             var command = new FailMissionCommand(new MissionId(id));
             var result = await Sender.Send(command, cancellationToken);

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.Missions.StartMission
 {
-    public sealed record StartMissionCommand(MissionId MissionId) : IRequest<Result>
+    public sealed record StartMissionCommand(MissionId MissionId, string IdempotencyKey) : IRequest<Result>, IIdempotentCommand
     {
     }
 }

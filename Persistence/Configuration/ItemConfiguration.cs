@@ -36,5 +36,10 @@ internal sealed class ItemConfiguration : IEntityTypeConfiguration<Item>{
                 .HasColumnType("decimal(18,2)")
                 .IsRequired();
         });
+        
+        //Concurrency
+        builder.Property(i => i.RowVersion)
+            .IsRowVersion()
+            .IsRequired();
     }
 }

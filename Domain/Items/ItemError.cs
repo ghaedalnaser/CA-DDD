@@ -20,5 +20,8 @@ namespace Domain.Items
 
         public static readonly Error NotAvailable = new(
             "Item.NotAvailable", "Item is not available for reservation.");
+
+        public static readonly Error Conflict = new(
+            "Item.Conflict", "The item was modified by another request. Please retry.");
     }
 }

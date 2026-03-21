@@ -18,10 +18,18 @@ namespace Persistence
         public DbSet<Mover> Movers => Set<Mover>();
         public DbSet<ActivityLog> ActivityLogs => Set<ActivityLog>();
         public DbSet<Mission> Missions => Set<Mission>();
+        public DbSet<IdempotencyKey> IdempotencyKeys => Set<IdempotencyKey>();
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            return base.SaveChangesAsync(cancellationToken);
+            try
+            {
+                return await base.SaveChangesAsync(cancellationToken);
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                throw new ConcurrencyException("A concurrency conflict occurred.", ex);
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

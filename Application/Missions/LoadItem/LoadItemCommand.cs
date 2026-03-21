@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Application.Missions.LoadItem
 {
-     public sealed record LoadItemCommand(ItemId ItemId, MissionId MissionId) : IRequest<Result>
+     public sealed record LoadItemCommand(ItemId ItemId, MissionId MissionId, string IdempotencyKey) : IRequest<Result>, IIdempotentCommand
     {
     }
 }
